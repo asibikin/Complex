@@ -13,8 +13,8 @@ namespace Complex
             int a = 1, b = 1;
             Complex z = new Complex(a, b);
             Console.WriteLine("z = {0}", z);
-            Complex z1;
-            z1 = z - (z * z * z - 1) / (3 * z * z);
+            Complex z1; z1 = z;
+            //z1 = z - (z * z * z - 1) / (3 * z * z);
             Console.WriteLine("z1 = z - (z * z * z - 1) / (3 * z * z) = {0}", z1);
             Console.WriteLine("z+z = {0}", z + z);
             Console.WriteLine("z-z = {0}", z - z);
